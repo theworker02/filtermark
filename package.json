@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/filtermark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Filter HTML/Markdown mark fragments safely for docs pipelines.",
+  "bin": {
+    "filtermark": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/filtermark.git"
+  },
+  "homepage": "https://theworker02.github.io/filtermark/",
+  "keywords": [
+    "filter",
+    "mark",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
